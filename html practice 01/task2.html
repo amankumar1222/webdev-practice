@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Inputs</title>
+</head>
+<body>
+    <header>
+        <h1>Task 2: Forms and Inputs</h1>
+    </header>
+    <main>
+        <section>
+            <form action="#">
+                <!-- Text input for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <!-- Password input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <!-- A drop-down menu for selecting the user's favorite programming language -->
+                <label for="programminglng">Favorite Programming Language:</label>
+                <select name="programminglng" id="programminglng" aria-label="Favorite Programming Language">
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="C++">C++</option>
+                </select>
+
+                <!-- A submit button -->
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
